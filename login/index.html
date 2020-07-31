@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Your site's title should be here</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your site's description should be here">
+    <meta name="keywords" content="Your site's keywords should be here">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="style.css"> 
+    <!--[if IE 6]>
+	<style type="text/css">
+		* html .group {
+			height: 1%;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if IE 7]>
+	<style type="text/css">
+		*:first-child+html .group {
+			min-height: 1px;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if lt IE 9]> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+  <![endif]--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/match-height.js"></script> 
+    <script>
+		$(function () {
+			$('.match-height-bootstrap-row > * > *').matchHeight();
+			$('.match-height > *').matchHeight();
+		})
+	</script>
+  </head>
+  <body>
+    <div class="step-01">
+      <div class="l-constrained">
+        <div class="header-copy group">
+          <img class="ahs-logo-png" src="images/ahs_logo_png.png" alt="" width="286" height="119">
+          <div class="group-8 match-height group">
+            <div class="rounded-rectangle-3-holder">
+              LOGIN
+            </div>
+            <div class="rounded-rectangle-3-copy-holder">
+              REGISTER
+            </div>
+          </div>
+          <p class="contact">CONTACT</p>
+          <p class="faq">FAQ</p>
+          <p class="text-3">NEWS &amp; BLOG</p>
+          <p class="text-2">OUR SERVICES</p>
+          <p class="text">ABOUT US</p>
+          <p class="home">HOME</p>
+        </div>
+        <div class="wrapper">
+          <div class="rounded-rectangle-5"></div>
+          <div class="col">
+            <p class="text-4">Sign &nbsp;In</p>
+            <img class="sign-in" src="images/sign_in.png" alt="" width="214" height="47">
+          </div>
+          <div class="col-2">
+            <div class="rectangle-1-holderq" style="margin-left: 27%;">
+              <input type="text" class="rectangle-1-holder" placeholder="UserID">
+            </div><br>
+
+            <div class="rectangle-1-holderq" style="margin-left: 27%;">
+              <input type="text" class="rectangle-1-holder" placeholder="Password">
+            </div>
+           
+            <div class="row group">
+              <div class="rectangle-2-copy1"><input type="checkbox" class="rectangle-2-copy"></div>
+              <p class="text-6">Remember Me</p>
+            </div>
+            <div class="rectangle-1-copy-12-holder">
+              SIGN IN
+            </div>
+            <div class="row-2 group">
+              <p class="text-8">Forget Password?</p>
+              <p class="text-9">Don’t Have An Account?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
